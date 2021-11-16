@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({ 
     credentials: true,
-    origin: 'http://localhost:3000',
+    origin: 'https://objective-bohr-5d19ac.netlify.app',
 }))
 app.use(express.urlencoded({ extended: true }))
 app.use('/auth', authRoute)
